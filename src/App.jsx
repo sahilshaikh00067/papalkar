@@ -49,9 +49,9 @@ import {
    deploying to production — do not ship placeholder imagery.
    ============================================================ */
 
-const WHATSAPP_NUMBER = "918369574582";
-const PHONE_1 = "8369574582";
-const PHONE_2 = "+91 8369574582";
+const WHATSAPP_NUMBER = "9323280398";
+const PHONE_1 = "+91 8369574582";
+const PHONE_2 = "+91 7947119258";
 
 /* ---------------- Image bank (placeholder photography) ---------------- */
 const IMG = {
