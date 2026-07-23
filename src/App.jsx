@@ -62,7 +62,7 @@ const IMG = {
 
   // Doctor
   consultRoom: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=1200",
-  
+
   // Hospital
   building: "https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg",
   reception: "https://images.pexels.com/photos/6129507/pexels-photo-6129507.jpeg",
@@ -594,9 +594,8 @@ const Navbar = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-40 transition-all duration-500 ${
-        scrolled ? "py-2 pg-glass bg-[var(--emerald-900)]/90 shadow-xl" : "py-4 bg-transparent"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-40 transition-all duration-500 ${scrolled ? "py-2 pg-glass bg-[var(--emerald-900)]/90 shadow-xl" : "py-4 bg-transparent"
+        }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         <a href="#home" className="flex items-center gap-3 group">
@@ -671,19 +670,21 @@ const Hero = () => {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-14 items-center w-full">
         <div>
-          <Reveal><Eyebrow tone="dark">Pusad's First Gastro &amp; Liver Care Specialist</Eyebrow></Reveal>
+          <Reveal><Eyebrow tone="dark">Saraswati Hospital &amp; Liver Care Specialist</Eyebrow></Reveal>
 
           <Reveal delay={100}>
             <h1 className="font-display font-black text-white text-4xl sm:text-5xl lg:text-6xl leading-[1.08] mt-6">
-              Advanced <span className="pg-shimmer-text">stomach &amp; liver</span> care, closer to home
+              Your <span className="pg-shimmer-text">Health Our</span> Commitment.
             </h1>
           </Reveal>
 
           <Reveal delay={200}>
             <p className="text-teal-50/85 text-base sm:text-lg mt-6 max-w-xl leading-relaxed">
-              पापळकर गॅस्ट्रोकेअर हॉस्पिटल — expert diagnosis and treatment for stomach, liver,
-              pancreas and intestinal disorders, led by Dr. Parag Viren Saraswati Hospital (MBBS, MD, DNB Gastroenterology).
-              Advanced endoscopy, colonoscopy and ERCP, now arriving in Pusad.
+              At Saraswati Hospital, we specialize in comprehensive care for stomach, liver, pancreas,
+              and intestinal diseases. Led by Dr. Dinesh Kasture Saraswati
+              (MBBS, MD, DNB – Gastroenterology), our hospital combines clinical
+              expertise with advanced procedures such as Endoscopy, Colonoscopy, and ERCP—delivering trusted,
+              modern digestive healthcare in Pusad.
             </p>
           </Reveal>
 
@@ -723,7 +724,7 @@ const Hero = () => {
               <div className="rounded-[2rem] overflow-hidden bg-white/10 pg-glass border border-white/20 p-3 shadow-2xl">
                 <img
                   src={IMG.heroDoctor}
-                  alt="Dr. Parag Viren Saraswati Hospital, Gastroenterologist"
+                  alt="Dr. Dinesh Kasture Saraswati Hospital, Gastroenterologist"
                   className="w-full h-[420px] sm:h-[480px] object-cover rounded-[1.6rem]"
                   loading="eager"
                 />
@@ -838,7 +839,7 @@ const About = () => {
           <Reveal><Eyebrow>Meet Your Specialist</Eyebrow></Reveal>
           <Reveal delay={100}>
             <h2 className="font-display font-black text-3xl sm:text-4xl lg:text-5xl text-[var(--ink)] mt-5 leading-tight">
-              <span className="pg-underline pg-in">Dr. Parag Viren Saraswati Hospital</span>
+              <span className="pg-underline pg-in">Dr. Dinesh Kasture Saraswati Hospital</span>
             </h2>
           </Reveal>
           <Reveal delay={150}>
@@ -890,8 +891,8 @@ const About = () => {
 
 /* ================= TEAM ================= */
 const TEAM = [
-  { img: IMG.team2, name: "Dr. Meena Singh", role: "Gastroenterologist & Hepatologist" },
-  { img: IMG.team1, name: "Sr. Nursing Staff", role: "Endoscopy & Patient Care" },
+  { img: IMG.team2, name: "Dr. Heena Trehan", role: "Gastroenterologist & Hepatologist" },
+  { img: IMG.team1, name: "Dr. Renu Agarwal", role: "Endoscopy & Patient Care" },
   { img: IMG.team3, name: "Lab & Diagnostics Team", role: "Pathology and Imaging" },
 ];
 
