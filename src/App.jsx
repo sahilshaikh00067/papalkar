@@ -34,7 +34,7 @@ import {
 } from "lucide-react";
 
 /* ============================================================
-   PAPALKAR GASTROCARE HOSPITAL — Ultra-Premium One-Page Website
+   Saraswati Hospital — Ultra-Premium One-Page Website
    Stack: React + Tailwind + Framer Motion + Swiper + react-hook-form + yup
           (custom local Tilt/Marquee/AnimatedNumber — no CJS/ESM interop risk)
    Signature motif: "Vital Line" — a living ECG waveform that acts
@@ -49,9 +49,9 @@ import {
    deploying to production — do not ship placeholder imagery.
    ============================================================ */
 
-const WHATSAPP_NUMBER = "918799992699";
-const PHONE_1 = "8799992699";
-const PHONE_2 = "8799992499";
+const WHATSAPP_NUMBER = "918369574582";
+const PHONE_1 = "8369574582";
+const PHONE_2 = "+91 8369574582";
 
 /* ---------------- Image bank (placeholder photography) ---------------- */
 const IMG = {
@@ -127,7 +127,7 @@ const LEGAL_CONTENT = {
     body: [
       {
         h: "Overview",
-        p: "Papalkar Gastrocare Hospital, Pusad (\"we\", \"us\", \"our\") respects your privacy. This Privacy Policy explains what information we collect through this website, how we use it, and the choices you have.",
+        p: "Saraswati Hospital, Pusad (\"we\", \"us\", \"our\") respects your privacy. This Privacy Policy explains what information we collect through this website, how we use it, and the choices you have.",
       },
       {
         h: "Information We Collect",
@@ -159,7 +159,7 @@ const LEGAL_CONTENT = {
       },
       {
         h: "Contact Us",
-        p: `For any privacy-related questions, please reach out to Papalkar Gastrocare Hospital at ${PHONE_1} / ${PHONE_2}, or via WhatsApp.`,
+        p: `For any privacy-related questions, please reach out to Saraswati Hospital at ${PHONE_1} / ${PHONE_2}, or via WhatsApp.`,
       },
     ],
   },
@@ -174,7 +174,7 @@ const LEGAL_CONTENT = {
       },
       {
         h: "Purpose of This Website",
-        p: "This website provides general information about Papalkar Gastrocare Hospital, Pusad, our specialist, our services, and a convenient way to request an appointment. It is intended for informational purposes and does not constitute medical advice.",
+        p: "This website provides general information about Saraswati Hospital, Pusad, our specialist, our services, and a convenient way to request an appointment. It is intended for informational purposes and does not constitute medical advice.",
       },
       {
         h: "Not a Substitute for Medical Advice",
@@ -194,11 +194,11 @@ const LEGAL_CONTENT = {
       },
       {
         h: "Intellectual Property",
-        p: "All content on this website, including text, images, and design elements, belongs to Papalkar Gastrocare Hospital unless otherwise credited, and may not be reproduced without permission.",
+        p: "All content on this website, including text, images, and design elements, belongs to Saraswati Hospital unless otherwise credited, and may not be reproduced without permission.",
       },
       {
         h: "Limitation of Liability",
-        p: "Papalkar Gastrocare Hospital is not liable for any indirect or incidental issues arising from the use of this website, including delays in appointment confirmation or third-party platform (WhatsApp, Google Maps) outages.",
+        p: "Saraswati Hospital is not liable for any indirect or incidental issues arising from the use of this website, including delays in appointment confirmation or third-party platform (WhatsApp, Google Maps) outages.",
       },
       {
         h: "Changes to These Terms",
@@ -538,7 +538,7 @@ const Preloader = ({ done }) => (
             <Stethoscope className="text-[var(--emerald-800)]" size={28} />
           </div>
           <VitalLine height={40} />
-          <p className="font-mono text-[11px] tracking-[0.3em] uppercase text-white/50">Papalkar Gastrocare</p>
+          <p className="font-mono text-[11px] tracking-[0.3em] uppercase text-white/50">Saraswati Hospital</p>
         </div>
       </motion.div>
     )}
@@ -604,7 +604,7 @@ const Navbar = () => {
             <Stethoscope className="text-[var(--emerald-800)]" size={24} />
           </div>
           <div className="leading-tight">
-            <p className="font-display font-bold text-white text-base sm:text-lg tracking-tight">Papalkar Gastrocare</p>
+            <p className="font-display font-bold text-white text-base sm:text-lg tracking-tight">Saraswati Hospital</p>
             <p className="font-mono text-[10px] sm:text-xs text-[var(--jade-soft)]/80 tracking-[0.2em] uppercase">Hospital, Pusad</p>
           </div>
         </a>
@@ -682,7 +682,7 @@ const Hero = () => {
           <Reveal delay={200}>
             <p className="text-teal-50/85 text-base sm:text-lg mt-6 max-w-xl leading-relaxed">
               पापळकर गॅस्ट्रोकेअर हॉस्पिटल — expert diagnosis and treatment for stomach, liver,
-              pancreas and intestinal disorders, led by Dr. Parag Viren Papalkar (MBBS, MD, DNB Gastroenterology).
+              pancreas and intestinal disorders, led by Dr. Parag Viren Saraswati Hospital (MBBS, MD, DNB Gastroenterology).
               Advanced endoscopy, colonoscopy and ERCP, now arriving in Pusad.
             </p>
           </Reveal>
@@ -693,7 +693,7 @@ const Hero = () => {
                 <Calendar size={18} /> Book an Appointment
               </button>
               <a
-                href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hello Papalkar Gastrocare Hospital, I would like to know more about your services.")}`}
+                href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hello Saraswati Hospital, I would like to know more about your services.")}`}
                 target="_blank" rel="noopener noreferrer"
                 className="pg-btn-outline flex items-center justify-center gap-2 border border-white/30 text-white font-bold px-7 py-4 rounded-full text-sm sm:text-base"
               >
@@ -723,7 +723,7 @@ const Hero = () => {
               <div className="rounded-[2rem] overflow-hidden bg-white/10 pg-glass border border-white/20 p-3 shadow-2xl">
                 <img
                   src={IMG.heroDoctor}
-                  alt="Dr. Parag Viren Papalkar, Gastroenterologist"
+                  alt="Dr. Parag Viren Saraswati Hospital, Gastroenterologist"
                   className="w-full h-[420px] sm:h-[480px] object-cover rounded-[1.6rem]"
                   loading="eager"
                 />
@@ -838,13 +838,13 @@ const About = () => {
           <Reveal><Eyebrow>Meet Your Specialist</Eyebrow></Reveal>
           <Reveal delay={100}>
             <h2 className="font-display font-black text-3xl sm:text-4xl lg:text-5xl text-[var(--ink)] mt-5 leading-tight">
-              <span className="pg-underline pg-in">Dr. Parag Viren Papalkar</span>
+              <span className="pg-underline pg-in">Dr. Parag Viren Saraswati Hospital</span>
             </h2>
           </Reveal>
           <Reveal delay={150}>
             <p className="text-gray-600 text-base sm:text-lg mt-6 leading-relaxed">
               A dedicated gastroenterologist and hepatologist bringing tertiary-hospital expertise to Pusad.
-              Trained across India's leading institutions, Dr. Papalkar specialises in diagnosing and treating
+              Trained across India's leading institutions, Dr. Saraswati Hospital specialises in diagnosing and treating
               disorders of the stomach, liver, pancreas and intestines using the latest endoscopic technology —
               so patients no longer need to travel to a metro city for advanced gastro care.
             </p>
@@ -1095,7 +1095,7 @@ const VideoSection = () => {
         <div className="text-center max-w-2xl mx-auto mb-14">
           <Reveal><Eyebrow>Watch &amp; Know</Eyebrow></Reveal>
           <Reveal delay={100}>
-            <h2 className="font-display font-black text-3xl sm:text-4xl text-[var(--ink)] mt-5">Take a video tour of Papalkar Gastrocare</h2>
+            <h2 className="font-display font-black text-3xl sm:text-4xl text-[var(--ink)] mt-5">Take a video tour of Saraswati Hospital</h2>
           </Reveal>
         </div>
 
@@ -1116,7 +1116,7 @@ const VideoSection = () => {
                   </span>
                 </motion.button>
                 <div className="absolute bottom-6 left-6 text-white">
-                  <p className="font-display font-bold text-lg sm:text-xl">Papalkar Gastrocare Hospital — Facility Walkthrough</p>
+                  <p className="font-display font-bold text-lg sm:text-xl">Saraswati Hospital — Facility Walkthrough</p>
                   <p className="text-white/70 text-sm">2:14 min</p>
                 </div>
               </>
@@ -1188,7 +1188,7 @@ const Insights = () => (
 /* ================= TESTIMONIALS (Swiper) ================= */
 const TESTIMONIALS = [
   { name: "Satisfied Patient", role: "Treated for acidity & GERD", quote: "The care and explanation I received here felt like a big-city hospital, but close to home. The endoscopy was quick and painless.", rating: 5 },
-  { name: "Satisfied Patient", role: "ERCP procedure", quote: "I was nervous about the ERCP procedure, but Dr. Papalkar and the team explained every step. Recovery was smooth and quick.", rating: 5 },
+  { name: "Satisfied Patient", role: "ERCP procedure", quote: "I was nervous about the ERCP procedure, but Dr. Saraswati Hospital and the team explained every step. Recovery was smooth and quick.", rating: 5 },
   { name: "Satisfied Patient", role: "Liver consultation", quote: "Finally a specialist for liver problems in Pusad. No need to travel to another city for proper diagnosis and treatment.", rating: 5 },
   { name: "Satisfied Patient", role: "Colonoscopy screening", quote: "Professional staff, clean facility, and a doctor who genuinely listens. Highly recommend for any stomach related issue.", rating: 5 },
 ];
@@ -1270,7 +1270,7 @@ const Journey = () => (
 const FAQS = [
   { q: "Do I need a prior appointment for a consultation?", a: "Walk-ins are welcome, but we recommend calling or WhatsApping us in advance so we can minimise your waiting time." },
   { q: "Is fasting required before an endoscopy or colonoscopy?", a: "Yes, specific fasting and preparation instructions apply. Our team will share detailed pre-procedure guidelines once your appointment is confirmed." },
-  { q: "Do you treat liver disease caused by alcohol use?", a: "Yes, Dr. Papalkar specialises in diagnosing and treating alcohol-related and other forms of liver disease." },
+  { q: "Do you treat liver disease caused by alcohol use?", a: "Yes, Dr. Saraswati Hospital specialises in diagnosing and treating alcohol-related and other forms of liver disease." },
   { q: "Is the ERCP procedure done at your hospital?", a: "Yes, ERCP for bile duct (CBD) stone removal is available with advanced endoscopic equipment and expert care." },
   { q: "How do I get my reports after a procedure?", a: "Reports are shared directly with you and explained in a follow-up consultation with the doctor." },
 ];
@@ -1327,10 +1327,10 @@ const Location = () => (
       <Reveal>
         <div className="h-full min-h-[320px] rounded-3xl overflow-hidden shadow-xl border border-black/5">
           <iframe
-            title="Papalkar Gastrocare Hospital location map"
+            title="Saraswati Hospital location map"
             className="w-full h-full min-h-[320px]"
             loading="lazy"
-            src="https://www.google.com/maps?q=Pusad+Maharashtra&output=embed"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28654.918835286036!2d72.79760867431638!3d19.181304100000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b73956929aaf%3A0xdf57e472f61e18fa!2sSARASWATI%20HOSPITAL%20managed%20by%20PLP%20health%20care%20group!5e1!3m2!1sen!2sin!4v1784804580621!5m2!1sen!2sin"
           />
         </div>
       </Reveal>
@@ -1342,7 +1342,7 @@ const Location = () => (
           <div className="space-y-5 mt-8">
             <div className="flex items-start gap-3">
               <MapPin size={20} className="text-[var(--amber)] mt-0.5 shrink-0" />
-              <p className="text-teal-50/85 text-sm sm:text-base">जुने पापळकर हॉस्पिटल, टीव्ही सेंटर समोर, तलाव लेआउट, पुसद</p>
+              <p className="text-teal-50/85 text-sm sm:text-base">1st floor, Divya Smruti CHS, New Link Rd, opp. to Toyota Showroom, Malad, Malad West, Mumbai, Maharashtra 400064</p>
             </div>
             <div className="flex items-start gap-3">
               <Phone size={20} className="text-[var(--amber)] mt-0.5 shrink-0" />
@@ -1354,7 +1354,7 @@ const Location = () => (
             </div>
           </div>
           <a
-            href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hello, I need directions to Papalkar Gastrocare Hospital.")}`}
+            href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hello, I need directions to Saraswati Hospital.")}`}
             target="_blank" rel="noopener noreferrer"
             className="pg-btn-primary inline-flex items-center gap-2 text-white font-bold px-6 py-3.5 rounded-full mt-9 w-fit text-sm"
           >
@@ -1390,7 +1390,7 @@ const BookingForm = ({ compact = false, presetService, onSent }) => {
   const onSubmit = (form) => {
     setSubmitting(true);
     const lines = [
-      "*New Appointment Request — Papalkar Gastrocare Hospital*",
+      "*New Appointment Request — Saraswati Hospital*",
       `Name: ${form.name}`,
       `Phone: ${form.phone}`,
       `Service: ${form.service}`,
@@ -1495,7 +1495,7 @@ const Contact = () => (
             </a>
             <div className="flex items-center gap-3 text-white">
               <span className="w-11 h-11 rounded-full bg-white/10 flex items-center justify-center"><MapPin size={18} /></span>
-              <span className="font-medium text-sm text-teal-50/85">जुने पापळकर हॉस्पिटल, टीव्ही सेंटर समोर, तलाव लेआउट, पुसद</span>
+              <span className="font-medium text-sm text-teal-50/85">1st floor, Divya Smruti CHS, New Link Rd, opp. to Toyota Showroom, Malad, Malad West, Mumbai, Maharashtra 400064</span>
             </div>
           </div>
         </Reveal>
@@ -1587,7 +1587,7 @@ const Footer = () => {
             <div className="w-11 h-11 rounded-2xl bg-white flex items-center justify-center">
               <Stethoscope className="text-[var(--emerald-800)]" size={22} />
             </div>
-            <p className="font-display font-bold text-white text-lg">Papalkar Gastrocare</p>
+            <p className="font-display font-bold text-white text-lg">Saraswati Hospital</p>
           </div>
           <p className="text-sm mt-4 leading-relaxed text-teal-50/60">
             Pusad's specialist hospital for stomach, liver, pancreas and intestinal care — पोट स्वस्थ, आयुष्य मस्त.
@@ -1613,14 +1613,14 @@ const Footer = () => {
         <div>
           <p className="font-display font-bold text-white mb-4">Contact</p>
           <ul className="space-y-3 text-sm">
-            <li className="flex items-start gap-2"><MapPin size={16} className="mt-0.5 shrink-0" /> जुने पापळकर हॉस्पिटल, टीव्ही सेंटर समोर, तलाव लेआउट, पुसद</li>
+            <li className="flex items-start gap-2"><MapPin size={16} className="mt-0.5 shrink-0" /> 1st floor, Divya Smruti CHS, New Link Rd, opp. to Toyota Showroom, Malad, Malad West, Mumbai, Maharashtra 400064</li>
             <li className="flex items-center gap-2"><Phone size={16} /> {PHONE_1} / {PHONE_2}</li>
           </ul>
         </div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-14 pt-6 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-teal-50/50">
-        <p>© {new Date().getFullYear()} Papalkar Gastrocare Hospital. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Saraswati Hospital. All rights reserved.</p>
         <div className="flex items-center gap-5">
           <button onClick={() => openLegal("privacy")} className="hover:text-white transition-colors underline-offset-2 hover:underline">
             Privacy Policy
@@ -1637,7 +1637,7 @@ const Footer = () => {
 /* ================= FLOATING BUTTONS ================= */
 const WhatsAppFloat = () => (
   <a
-    href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hello Papalkar Gastrocare Hospital, I would like to book an appointment.")}`}
+    href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hello Saraswati Hospital, I would like to book an appointment.")}`}
     target="_blank" rel="noopener noreferrer"
     className="fixed bottom-6 right-6 z-40 w-16 h-16 rounded-full bg-[#25D366] flex items-center justify-center shadow-2xl hover:scale-110 active:scale-95 transition-transform duration-300"
     aria-label="Chat on WhatsApp"
